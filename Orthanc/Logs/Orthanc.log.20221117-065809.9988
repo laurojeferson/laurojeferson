@@ -1,0 +1,75 @@
+W1117 06:58:09.794432 main.cpp:1956] Orthanc version: 1.9.7
+W1117 06:58:09.794432 OrthancConfiguration.cpp:117] Scanning folder "Configuration" for configuration files
+W1117 06:58:09.794432 OrthancConfiguration.cpp:66] Reading the configuration from: "Configuration\dicomweb.json"
+W1117 06:58:09.794432 OrthancConfiguration.cpp:66] Reading the configuration from: "Configuration\indexer.json"
+W1117 06:58:09.794432 OrthancConfiguration.cpp:66] Reading the configuration from: "Configuration\mysql.json"
+W1117 06:58:09.810057 OrthancConfiguration.cpp:66] Reading the configuration from: "Configuration\odbc.json"
+W1117 06:58:09.810057 OrthancConfiguration.cpp:66] Reading the configuration from: "Configuration\orthanc.json"
+W1117 06:58:09.810057 OrthancConfiguration.cpp:66] Reading the configuration from: "Configuration\postgresql.json"
+W1117 06:58:09.810057 OrthancConfiguration.cpp:66] Reading the configuration from: "Configuration\serve-folders.json"
+W1117 06:58:09.810057 OrthancConfiguration.cpp:66] Reading the configuration from: "Configuration\stone-webviewer.json"
+W1117 06:58:09.810057 OrthancConfiguration.cpp:66] Reading the configuration from: "Configuration\tcia.json"
+W1117 06:58:09.810057 OrthancConfiguration.cpp:66] Reading the configuration from: "Configuration\transfers.json"
+W1117 06:58:09.810057 OrthancConfiguration.cpp:66] Reading the configuration from: "Configuration\webviewer.json"
+W1117 06:58:09.810057 OrthancConfiguration.cpp:66] Reading the configuration from: "Configuration\worklists.json"
+W1117 06:58:10.247548 main.cpp:878] Loading plugin(s) from: C:\Orthanc\Plugins
+W1117 06:58:10.247548 PluginsManager.cpp:269] Registering plugin 'connectivity-checks' (version 1.9.7)
+W1117 06:58:10.247548 PluginsManager.cpp:269] Registering plugin 'stone-webviewer' (version 2.2)
+W1117 06:58:10.247548 PluginsManager.cpp:269] Registering plugin 'worklists' (version 1.9.7)
+W1117 06:58:10.247548 PluginsManager.cpp:168] Sample worklist plugin is initializing
+W1117 06:58:10.247548 PluginsManager.cpp:168] The database of worklists will be read from folder: C:\Orthanc\Worklist
+W1117 06:58:10.247548 PluginsManager.cpp:269] Registering plugin 'authorization' (version 0.2.4)
+W1117 06:58:10.247548 PluginsManager.cpp:168] Initializing the authorization plugin
+W1117 06:58:10.247548 PluginsManager.cpp:168] No section "Authorization" in the configuration file, the authorization plugin is disabled
+W1117 06:58:10.247548 PluginsManager.cpp:269] Registering plugin 'dicom-web' (version 1.7)
+W1117 06:58:10.263173 PluginsManager.cpp:168] URI to the DICOMweb REST API: /dicom-web/
+W1117 06:58:10.263173 PluginsManager.cpp:168] URI to the WADO-URI API: /wado
+W1117 06:58:10.278798 PluginsManager.cpp:269] Registering plugin 'gdcm' (version 1.4)
+W1117 06:58:10.278798 PluginsManager.cpp:168] Version of GDCM: 3.0.8
+W1117 06:58:10.278798 PluginsManager.cpp:168] GDCM throttling is disabled
+W1117 06:58:10.294421 PluginsManager.cpp:269] Registering plugin 'indexer' (version 1.0)
+W1117 06:58:10.294421 PluginsManager.cpp:168] OrthancIndexer is disabled
+W1117 06:58:10.294421 PluginsManager.cpp:269] Registering plugin 'mysql-index' (version 4.3)
+W1117 06:58:10.294421 PluginsManager.cpp:168] The MySQL index is currently disabled, set "EnableIndex" to "true" in the "MySQL" section of the configuration file of Orthanc
+W1117 06:58:10.294421 PluginsManager.cpp:269] Registering plugin 'mysql-storage' (version 4.3)
+W1117 06:58:10.294421 PluginsManager.cpp:168] The MySQL storage area is currently disabled, set "EnableStorage" to "true" in the "MySQL" section of the configuration file of Orthanc
+W1117 06:58:10.294421 PluginsManager.cpp:269] Registering plugin 'odbc-index' (version 1.0)
+W1117 06:58:10.294421 PluginsManager.cpp:168] The ODBC index is currently disabled, set "EnableIndex" to "true" in the "Odbc" section of the configuration file of Orthanc
+W1117 06:58:10.310045 PluginsManager.cpp:269] Registering plugin 'odbc-storage' (version 1.0)
+W1117 06:58:10.310045 PluginsManager.cpp:168] The ODBC storage area is currently disabled, set "EnableStorage" to "true" in the "Odbc" section of the configuration file of Orthanc
+W1117 06:58:10.310045 PluginsManager.cpp:269] Registering plugin 'postgresql-index' (version 4.0)
+W1117 06:58:10.310045 PluginsManager.cpp:168] The PostgreSQL index is currently disabled, set "EnableIndex" to "true" in the "PostgreSQL" section of the configuration file of Orthanc
+W1117 06:58:10.310045 PluginsManager.cpp:269] Registering plugin 'postgresql-storage' (version 4.0)
+W1117 06:58:10.310045 PluginsManager.cpp:168] The PostgreSQL storage area is currently disabled, set "EnableStorage" to "true" in the "PostgreSQL" section of the configuration file of Orthanc
+W1117 06:58:10.310045 PluginsManager.cpp:269] Registering plugin 'tcia' (version 1.0)
+W1117 06:58:10.310045 PluginsManager.cpp:269] Registering plugin 'transfers' (version 1.0)
+W1117 06:58:10.325667 PluginsManager.cpp:269] Registering plugin 'web-viewer' (version 2.7)
+W1117 06:58:10.325667 PluginsManager.cpp:168] Initializing the Web viewer
+W1117 06:58:10.325667 PluginsManager.cpp:168] Web viewer using 2 threads for the decoding of the DICOM images
+W1117 06:58:10.325667 PluginsManager.cpp:168] Storing the cache of the Web viewer in folder: C:\Orthanc\Storage\WebViewerCache
+W1117 06:58:10.325667 PluginsManager.cpp:168] Web viewer using a cache of 100 MB
+W1117 06:58:10.325667 PluginsManager.cpp:269] Registering plugin 'wsi' (version 1.0)
+W1117 06:58:10.325667 PluginsManager.cpp:168] The whole-slide imaging plugin will use at most 4 threads to transcode the tiles
+W1117 06:58:10.356918 PluginsManager.cpp:269] Registering plugin 'osimis-web-viewer' (version 1.4.2.0-9d9eff4)
+W1117 06:58:10.356918 PluginsManager.cpp:168] Initializing the Web viewer
+W1117 06:58:10.356918 PluginsManager.cpp:168] Using GDCM instead of the DICOM decoder that is built in Orthanc
+W1117 06:58:10.372545 PluginsManager.cpp:269] Registering plugin 'serve-folders' (version 1.9.7)
+W1117 06:58:10.372545 PluginsManager.cpp:168] ServeFolders: Empty configuration file: No additional folder will be served!
+W1117 06:58:10.372545 OrthancInitialization.cpp:358] SQLite index directory: "C:\Orthanc\Storage"
+W1117 06:58:10.372545 OrthancInitialization.cpp:457] Storage directory: "C:\Orthanc\Storage"
+W1117 06:58:10.388166 HttpClient.cpp:1176] HTTPS will use the CA certificates from this file: C:\Orthanc\Configuration\ca-certificates.crt
+W1117 06:58:10.388166 LuaContext.cpp:93] Lua says: Lua toolbox installed
+W1117 06:58:10.388166 LuaContext.cpp:93] Lua says: Lua toolbox installed
+W1117 06:58:10.388166 ServerContext.cpp:478] Disk compression is disabled
+W1117 06:58:10.388166 ServerIndex.cpp:391] No limit on the number of stored patients
+W1117 06:58:10.388166 ServerIndex.cpp:411] No limit on the size of the storage area
+W1117 06:58:10.388166 ServerContext.cpp:220] Reloading the jobs from the last execution of Orthanc
+W1117 06:58:10.388166 JobsEngine.cpp:271] The jobs engine has started with 2 threads
+W1117 06:58:10.388166 main.cpp:1263] DICOM server listening with AET ORTHANC on port: 4242
+W1117 06:58:10.388166 HttpServer.cpp:1992] HTTP compression is enabled
+W1117 06:58:10.388166 main.cpp:1024] Remote access is allowed but "AuthenticationEnabled" is not in the configuration, automatically enabling HTTP authentication for security
+W1117 06:58:10.388166 main.cpp:1138] Remote LUA script execution is disabled
+W1117 06:58:10.388166 main.cpp:1160] The HTTP port is privileged (80 is below 1024), make sure you run Orthanc as root/administrator
+W1117 06:58:10.388166 HttpServer.cpp:1769] HTTP server listening on port: 80 (HTTPS encryption is disabled, remote access is allowed)
+W1117 06:58:10.388166 main.cpp:890] Orthanc has started
+W1117 10:24:58.581193 OrthancMoveRequestHandler.cpp:337] Move-SCU request received for AET "MICRODICOM"

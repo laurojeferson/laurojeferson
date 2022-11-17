@@ -1,0 +1,17 @@
+{
+	"ID" : "425e5d95-e4652eda-67629a3b-4b275513-b50e6830",
+	"PatientID" : "00003971-2",
+	"PatientName" : "Vania^Anonymous",
+	"SeriesDescription" : "",
+	"Slices" : 
+	[
+		"6ccd21d6-f8a13930-2f0586a5-5c23130c-ab22d62e_0",
+		"b6cb1675-fa9c9bb0-0a263898-e8baf734-1c9d6f56_0",
+		"342ab378-20f267c0-5b79d1f1-9e07278f-67672b79_0",
+		"80679116-80fd0ac0-64a3a029-170dafbe-29c9d43f_0",
+		"5a8d994a-a86e1ceb-ba6437d1-92d10a0e-59a71a5c_0",
+		"f594f60f-4cb2c3d4-627f77c6-26ea4abc-f1fee676_0"
+	],
+	"StudyDescription" : "MAMOGRAFIA DIGITAL BILATERAL",
+	"Type" : "Sequence"
+}
